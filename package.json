@@ -1,0 +1,31 @@
+{
+  "name": "reddit-jokes",
+  "version": "1.0.0",
+  "description": "Crawler and database for top r/jokes posts.",
+  "main": "index.js",
+  "scripts": {
+    "develop": "node index.js",
+    "test": "node ./tests/scraperController.test.js",
+    "liveTest": "node ./tests/liveFeedScraperTest.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaisiia/node-reddit-jokes.git"
+  },
+  "author": "Mihai Siia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mihaisiia/node-reddit-jokes/issues"
+  },
+  "homepage": "https://github.com/mihaisiia/node-reddit-jokes#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "puppeteer": "^21.3.8"
+  }
+}

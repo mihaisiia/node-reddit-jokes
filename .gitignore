@@ -1,3 +1,11 @@
+# Additions
+backups/
+.DS_Store
+.vscode/
+*.old
+tests/sites/
+tests/results/*.txt
+
 # Logs
 logs
 *.log
