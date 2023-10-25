@@ -8,6 +8,10 @@
     "test": "node ./tests/scraperController.test.js",
     "liveTest": "node ./tests/liveFeedScraperTest.test.js"
   },
+  "engines": {
+    "npm": ">=9.0.0",
+    "node": ">=18.18.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mihaisiia/node-reddit-jokes.git"

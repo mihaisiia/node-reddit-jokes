@@ -5,6 +5,7 @@ backups/
 *.old
 tests/sites/
 tests/results/*.txt
+.zed/
 
 # Logs
 logs
