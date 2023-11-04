@@ -2,7 +2,7 @@ const { Browser } = require('puppeteer');
 const readline = require('readline');
 const Joke = require('../models/Joke.js');
 
-const otherScraper = require("./otherScraper.js");
+const otherScraper = require("./scraper.js");
 
 /**
  * @todo

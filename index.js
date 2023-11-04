@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const dotenv = require("dotenv")
 const browserObject = require("./src/browser")
-const scraperController = require("./src/pageController")
+const scraperController = require("./src/scraperController")
 dotenv.config();
 const database = process.env.MONGODB_URI;
 mongoose.connect(database)
