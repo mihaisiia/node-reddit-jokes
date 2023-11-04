@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "develop": "node index.js",
-    "test": "node ./tests/scraperController.test.js",
     "liveTest": "node ./tests/liveFeedScraperTest.test.js"
   },
   "engines": {
@@ -23,6 +22,7 @@
   },
   "homepage": "https://github.com/mihaisiia/node-reddit-jokes#readme",
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "3.0.1"
   },
   "dependencies": {
