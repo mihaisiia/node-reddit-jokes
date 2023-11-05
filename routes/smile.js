@@ -1,7 +1,7 @@
 const express = require('express');
-const {smileView, fetchJoke} = require('../controllers/smileController');
+const SmileContoller = require('../controllers/smileController');
 const router = express.Router();
-router.get('/', smileView);
-router.get('/joke', fetchJoke)
+router.get('/', SmileContoller.smileView);
+router.get('/joke', SmileContoller.getRandomJoke)
 
 module.exports = router;

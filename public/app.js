@@ -8,9 +8,8 @@ function getJoke(){
     fetch('http://localhost:4111/joke')
     .then(response => response.json())
     .then(joke => {
-        jokeDisplayTitle.textContent = joke.title;
-        jokeDisplayBody.textContent = joke.body;
-        jokeDisplayBody.re
+        jokeDisplayTitle.textContent = joke.data.title;
+        jokeDisplayBody.textContent = joke.data.body;
     })
     .catch(err => console.log(err));
 }
